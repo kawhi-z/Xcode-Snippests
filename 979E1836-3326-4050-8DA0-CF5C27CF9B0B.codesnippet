@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    _button = [[UIButton alloc] init];
+    _button.backgroundColor = [UIColor &lt;#color#&gt;];
+    _button.titleLabel.font = [UIFont &lt;#font#&gt;];
+    [_button setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+    [_button setTitleColor:[UIColor &lt;#color#&gt;] forState:UIControlStateNormal];
+    [_button setImage:[UIImage imageNamed:@"&lt;#image#&gt;"] forState:UIControlStateNormal];
+    _button.layer.masksToBounds = true;
+    _button.layer.cornerRadius = &lt;#radius#&gt;;
+    _button.titleEdgeInsets = UIEdgeInsetsMake(&lt;#CGFloat top#&gt;, &lt;#CGFloat left#&gt;, &lt;#CGFloat bottom#&gt;, &lt;#CGFloat right#&gt;);
+    _button.imageEdgeInsets = UIEdgeInsetsMake(&lt;#CGFloat top#&gt;, &lt;#CGFloat left#&gt;, &lt;#CGFloat bottom#&gt;, &lt;#CGFloat right#&gt;);
+    [_button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>979E1836-3326-4050-8DA0-CF5C27CF9B0B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button alloc init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
